@@ -9,7 +9,6 @@
         <img src=" /img/dc-logo.png">
     </div>
 
-   
     <div id="navbar">
         <a href="/">CHARACTER</a>
         <a href="/">CHARACTER</a>
@@ -28,6 +27,7 @@
 @use '../styles/partials/variables' as *;
 
 header{
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
