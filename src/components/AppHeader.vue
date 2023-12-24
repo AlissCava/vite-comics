@@ -11,14 +11,15 @@
 
     <div id="navbar">
         <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
-        <a href="/">CHARACTER</a>
+        <a href="/">COMICS</a>
+        <a href="/">MOVIES</a>
+        <a href="/">TV</a>
+        <a href="/">GAMES</a>
+        <a href="/">COLLECTIONARY</a>
+        <a href="/">VIDEOS</a>
+        <a href="/">FANS</a>
+        <a href="/">NEWS</a>
+        <a href="/">SHOP</a>
     </div>
   </header>
 </template>
@@ -31,6 +32,11 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    // position: fixed;
+    // overflow: hidden;
+    //  z-index: 10;
+    // width: 100%;
+    top: 0;
    
     #navbar{
         list-style: none;

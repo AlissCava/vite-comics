@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: "AppHeader",
+        name: "AppMain",
     }
 </script>
 <template>
@@ -28,12 +28,12 @@
 
         <div class="section">
             <img src="/img/buy-comics-subscriptions.png" alt="">
-            <p>SUBCRIPTION</p>
+            <p>COMICS SHOP LOCATOR</p>
         </div>
 
         <div class="section">
             <img src="/img/buy-comics-subscriptions.png" alt="">
-            <p>SUBCRIPTION</p>
+            <p>CD POWER VISA</p>
         </div>
     </div>
    
@@ -44,6 +44,10 @@
 @use '../styles/partials/variables' as *;
 
 main{
+    position: fixed;
+    overflow: hidden;
+    z-index: 10;
+    width: 100%;
 
     #containerContent{
     padding-top: 10px;
