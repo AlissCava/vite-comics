@@ -68,11 +68,20 @@
 
         <div id="footerDOWN">
             <div id="footerdownRIGHT">
-
+                <div class="bottone">
+                    <p>SING-UP</p>
+                </div>
             </div>
 
             <div id="footerdownLEFT">
-                
+                <p>FOLLOW US</p>
+                <div id="loghi">
+                    <img src="/img/footer-facebook.png" alt="">
+                    <img src="/img/footer-twitter.png" alt="">
+                    <img src="/img/footer-youtube.png" alt="">
+                    <img src="/img/footer-pinterest.png" alt="">
+                    <img src="/img/footer-periscope.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -102,7 +111,7 @@ footer{
 
                 ul{
                 color: darkgray;
-                margin-left: -20px;
+                margin-left: -40px;
                 line-height: 20px;
                 list-style: none;
                 }
@@ -117,12 +126,40 @@ footer{
         display: flex;
         justify-content: space-around;
         min-height: 100px;
-        background-color: dimgrey;
+        background-color: rgb(51, 51, 51);
         position: fixed;
         overflow: hidden;
         z-index: 20;
         width: 100%;
         bottom: 0;
+
+        #footerdownRIGHT{
+             .bottone{
+
+                p{
+                    border:1px solid dodgerblue;
+                    color: white;
+                    padding: 20px;
+                }
+             }
+        }
+
+
+        #footerdownLEFT{
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+
+        p{
+            color: dodgerblue;
+            font-weight: 900;
+        }
+
+        img{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
 }
 
