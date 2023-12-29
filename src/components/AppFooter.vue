@@ -12,50 +12,50 @@
                     <div class="lista">
                         <p>DC COMICS</p>
                         <ul>
+                            <li>characters</li>
                             <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
+                            <li>movies</li>
+                            <li>tv</li>
+                            <li>games</li>
+                            <li>videos</li>
+                            <li>news</li>
                         </ul>
                     </div>
                     <div class="lista">
-                        <p>DC COMICS</p>
+                        <p>SHOP</p>
                         <ul>
-                            <li>comics</li>
-                            <li>comics</li>
+                            <li>shop DC</li>
+                            <li>shop DC collectibles</li>
                         </ul>
                     </div>
                 </div>
                 <div id="col2">
                     <div class="lista">
-                        <p>DC COMICS</p>
+                        <p>DC</p>
                         <ul>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
+                            <li>Terms Of Use</li>
+                            <li>Privacy policy (New)</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certificates</li>
+                            <li>Ratings</li>
+                            <li>Shop Help</li>
+                            <li>Contact Us</li>
                         </ul>
                     </div>
                 </div>
                 <div id="col3">
                     <div class="lista">
-                        <p>DC COMICS</p>
+                        <p>SITES</p>
                         <ul>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
-                            <li>comics</li>
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
                         </ul>
                     </div>
                 </div>
@@ -94,11 +94,10 @@
 footer{
 
     #footerUP{
-       margin-top: 350px;
         padding-top: 10px;
         display: flex;
         justify-content: space-around;
-        height: 1000px;
+        // height: 1000px;
         background-image: url("/img/footer-bg.jpg");
 
         #footerupRIGHT{
@@ -154,6 +153,7 @@ footer{
         p{
             color: dodgerblue;
             font-weight: 900;
+            font-size: x-large;
         }
 
         img{

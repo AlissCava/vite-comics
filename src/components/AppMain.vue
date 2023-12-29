@@ -6,6 +6,10 @@
 <template>
   <main>
 
+    <div id="jumbooContainer">
+        <img id="jumboo" src="/img/jumbotron.jpg" alt="">
+    </div>
+
     <div id="containerContent">
         <p> -> Content goes here </p>
     </div>
@@ -44,12 +48,24 @@
 @use '../styles/partials/variables' as *;
 
 main{
-    position: fixed;
-    overflow: hidden;
-    z-index: 10;
+    // position: fixed;
+    // overflow: hidden;
+    
     width: 100%;
 
+    #jumbooContainer{
+        width: 100%;
+        z-index: -10;
+
+        #jumboo{
+            width: 100%;
+            height: 500px;
+        }
+    }
+
     #containerContent{
+    z-index: 10;
+    // margin-top: 300px;
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -64,6 +80,8 @@ main{
     }   
 
     #containericon{
+        z-index: 10;
+        bottom: 0;
         align-items: center;
         padding-left: 50px;
         padding-right: 50px;
@@ -87,12 +105,7 @@ main{
                 width: 100%;
             }
         }
-
-        
-
     }
-
-
 }
 
 
